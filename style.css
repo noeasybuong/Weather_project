@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+.app {
+    background-image: url(04099_dataibaysunset_1920x1080.jpg);
+    position: relative;
+    height: 950px;
+background-size: cover;
+
+}
+
+.input {
+    text-align: center;
+    padding-top: 10%;
+  
+}
+
+.result-weather {
+    width: 35%;
+    height: 35%;
+    background-color: aliceblue;
+    opacity: 0.8;
+    position: absolute;
+    left: 32%;
+    top: 35%;
+    text-align: center;
+}
+
+.inputLocation{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 3rem;
+    border:0px white solid;
+
+}
+ 
+
+.search{
+    width: 4rem ;
+    height:2rem ;
+    border-radius: 3rem;
+    border:0px white solid;
+}
