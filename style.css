@@ -13,7 +13,7 @@
     display: flex;
     flex-wrap: wrap;
     text-align: end;
-    margin-top: 4vh;
+    margin-top: 2vh;
 
 }
 
@@ -40,7 +40,7 @@
 }
 
 
-.cloudCover {
+.windSpeed {
     width: 50%;
     height: 50px;
     display: flex;
@@ -48,7 +48,10 @@
 }
 
 .weather-temperature {
-    margin-top: 3vh;
+    margin-top: 2vh;
+    text-align: start;
+    margin-left: 2vh;
+    font-size: xx-large;
 }
 
 
@@ -79,7 +82,7 @@
     height: 3vh;
 }
 
-.icon-cloudCover {
+.icon-windSpeed {
     width: 3vh;
     height: 3vh;
 }
@@ -97,7 +100,7 @@
     height: 100vh;
     color: rgba(21, 11, 11, 0.881);
     image-rendering: pixelated;
-
+    
 }
 
 .input {
@@ -132,4 +135,8 @@
     height: 2rem;
     border-radius: 3rem;
     border: 0px white solid;
+}
+
+.location {
+    margin-top: 1vh;
 }
