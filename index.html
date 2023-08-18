@@ -16,21 +16,50 @@
 <body>
     <div class="app">
         <div class="input">
-            <form action="">
-                <label for="">Nhập địa điểm </label>
-                <input type="text" class="inputLocation">
+            <form action>
+
+                <input type="text" class="inputLocation" placeholder="Nhập địa điểm">
                 <input type="button" value="Tìm kiếm" class="search">
             </form>
         </div>
 
         <div class="result-weather">
-            <h2 class="location"></h2>
+            <h3 class="location"></h3>
             <h4 class="todayDate"></h4>
+            <img src="" alt="" class="icon-weather">
+            <h1 class="weather-temperature"></h1>
+
+
             <div class="weather">
-                <h1 class="weather-temperature"></h1>
-                <h3 class="weather-humidity"></h3>
-                <h3 class="weather-precipitationProbability"></h3>
-                <h3 class="wether-cloudCover"></h3>
+
+                <div class="uvIndex">
+                    <img src="" alt="" class="icon-uvIndex">
+                    <b>
+                        <p class="weather-uvIndex"></p>
+                    </b>
+                </div>
+
+                <div class="humidity">
+                    <img src="" alt="" class="icon-humidity">
+                    <b>
+                        <p class="weather-humidity"></p>
+                    </b>
+                </div>
+
+                <div class="precipitationProbability">
+                    <img src="" alt="" class="icon-precipitationProbability">
+                    <b>
+                        <p class="weather-precipitationProbability"></p>
+                    </b>
+                </div>
+
+                <div class="cloudCover">
+                    <img src="" alt="" class="icon-cloudCover">
+                    <b>
+                        <p class="wether-cloudCover"></p>
+                    </b>
+                </div>
+
             </div>
 
         </div>

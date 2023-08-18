@@ -8,11 +8,95 @@
 
 
 
+.weather {
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: end;
+    margin-top: 4vh;
+
+}
+
+.uvIndex {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    justify-content: space-around;
+}
+
+.humidity {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.precipitationProbability {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cloudCover {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weather-temperature {
+    margin-top: 3vh;
+}
+
+
+
+/* icon  re...*/
+.icon-weather {
+    width: 3vh;
+    height: 3vh;
+}
+
+
+
+
+/* icon */
+.icon-uvIndex {
+    width: 3vh;
+    height: 3vh;
+}
+
+
+.icon-humidity {
+    width: 3vh;
+    height: 3vh;
+}
+
+.icon-precipitationProbability {
+    width: 3vh;
+    height: 3vh;
+}
+
+.icon-cloudCover {
+    width: 3vh;
+    height: 3vh;
+}
+
+
+
+
+
+
+
+/* app */
 .app {
-    background-image: url(04099_dataibaysunset_1920x1080.jpg);
-    position: relative;
-    height: 950px;
-    background-size: cover;
+
+    background-size: 100% 100%;
+    height: 100vh;
+    color: rgba(21, 11, 11, 0.881);
+    image-rendering: pixelated;
 
 }
 
@@ -26,7 +110,7 @@
     width: 35%;
     height: 35%;
     background-color: aliceblue;
-    opacity: 0.9;
+
     position: absolute;
     left: 32%;
     top: 35%;
